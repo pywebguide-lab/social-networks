@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Социальные сети — Обратная связь</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container header-inner">
+        <div class="logo">SocialWeb</div>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="platforms.html">Платформы</a>
+            <a href="safety.html">Безопасность</a>
+            <a class="active" href="contact.html">Обратная связь</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="page-title">
+        <div class="container">
+            <h1>Обратная связь</h1>
+            <p>Учебная форма для демонстрации элементов HTML.</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="form-box">
+                <form>
+                    <div class="form-row">
+                        <div>
+                            <label for="name">Имя</label>
+                            <input type="text" id="name" placeholder="Введите имя">
+                        </div>
+
+                        <div>
+                            <label for="email">Электронная почта</label>
+                            <input type="email" id="email" placeholder="example@mail.com">
+                        </div>
+                    </div>
+
+                    <label for="topic">Тема сообщения</label>
+                    <select id="topic">
+                        <option>Вопрос о социальных сетях</option>
+                        <option>Предложение</option>
+                        <option>Ошибка на сайте</option>
+                    </select>
+
+                    <label for="message">Сообщение</label>
+                    <textarea id="message" placeholder="Введите текст сообщения"></textarea>
+
+                    <button class="button" type="submit">Отправить</button>
+                </form>
+
+                <div class="notice">
+                    Эта форма является демонстрационной. Без серверной части данные
+                    никуда не отправляются.
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container footer-inner">
+        <p>Учебный веб-ресурс «Социальные сети»</p>
+        <p>Страница: Обратная связь</p>
+    </div>
+</footer>
+
+</body>
+</html>
